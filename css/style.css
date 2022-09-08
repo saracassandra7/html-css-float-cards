@@ -16,11 +16,6 @@ body{
   text-align: center;
 }
 
-.clearfix::after{
-  clear: both;
-  display: table;
-  float:none;
-}
 
 /*intestazione*/
 section h1{
