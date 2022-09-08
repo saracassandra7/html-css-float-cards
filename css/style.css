@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Fredoka', sans-serif;
+
+}
+
+.container{
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+section h1{
+  color: rgb(229, 49, 112);
+  font-size: 28px;
+  padding: 20px;
+}
+
+section p{
+  font-size: 13px;
+  padding: 20px;
+}
