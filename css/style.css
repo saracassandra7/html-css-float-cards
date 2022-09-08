@@ -1,3 +1,4 @@
+/*generali*/
 *{
   margin: 0;
   padding: 0;
@@ -10,11 +11,18 @@ body{
 }
 
 .container{
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
   text-align: center;
 }
 
+.clearfix::after{
+  clear: both;
+  display: table;
+  float:none;
+}
+
+/*intestazione*/
 section h1{
   color: rgb(229, 49, 112);
   font-size: 28px;
@@ -24,4 +32,47 @@ section h1{
 section p{
   font-size: 13px;
   padding: 20px;
+}
+
+
+/*float cards*/
+.clearfix::after{
+  clear: both;
+  display: table;
+  float:none;
+}
+
+.col{
+  width: calc(100% / 3 - 10px);
+  height: 100px;
+  background-color: rgb(15, 14, 23);
+  float:left;
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: white;
+  text-align: left;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+img{
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+h3{
+  padding-top: 20px;
+}
+
+span{
+  display: block;
+  font-size: 12px;
+  padding: 5px;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(0, 189, 243);
 }
